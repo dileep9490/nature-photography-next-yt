@@ -32,7 +32,7 @@ const Navbar = () => {
 		>
 			<div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
 				<Link href="/">
-					<h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
+					<h1 style={{ color: `${textColor}` }} className="font-bold text-4xl cursor-pointer">
 						Captur
 					</h1>
 				</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
 						<Link href="/#gallery">Gallery</Link>
 					</li>
 					<li className="p-4">
-						<Link href="/portfolio">Work</Link>
+						<Link href="/work">Work</Link>
 					</li>
 					<li className="p-4">
 						<Link href="/contact">Contact</Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
 							<Link href="/#gallery">Gallery</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
-							<Link href="/portfolio">Work</Link>
+							<Link href="/work">Work</Link>
 						</li>
 						<li className="p-4 text-4xl hover:text-gray-500">
 							<Link href="/contact">Contact</Link>
